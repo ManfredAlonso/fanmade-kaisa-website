@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Macondo&display=swap');
+
+:root{
+    --cor1:#70297A;
+    --cor2:#7D2E8A;
+    --cor3:#f3de8a5b;
+    --cor4:rgba(160, 119, 17, 0.685);
+    --cor5:red;
+    --fonte-padrao:Arial,verdana,helvetica,sans-serif;
+    --fonte-main:'Macondo', cursive;
+
+}
+/*Começo do body*/
+body{
+    display: block;
+    font-family: var(--fonte-padrao);
+    background-image:linear-gradient(to bottom,#70297A,#7D2E8A ) ;
+    text-align: center;
+}
+/*começo do header*/
+.cabecario{
+    display: grid;
+    background-image:linear-gradient(to bottom,#f3de8a5b,#70297A) ;
+    height: 65px;
+}
+/*começo da nav*/
+.navegacao{
+    text-align: start;
+    
+}
+a{
+    color: var(--cor4);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: 1s;
+}
+a:hover{
+    color:black;
+
+    
+}
+/*inicio do main*/
+.conteudo{
+   display: grid;
+    background-color: rgba(0, 0, 0, 0.575);
+    font-family: var(--fonte-main);
+    color: var(--cor4);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding: 25px;
+    box-shadow: 0px 0px 8px black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; 
+}
+
+main{
+    display: grid;
+}
+
+main h1 h3{
+    color:goldenrod;
+    font-family: var(--fonte-main);
+}
+/*inicio das imagens*/
+picture{
+    display: grid;
+    width: 70%;
+     max-width: 70%;
+    
+}
+
+img{
+    width: 80%;
+    max-width: 70%;
+    border-radius: 5px;
+}
+
+.quote{
+    display: grid;
+}
+
+aside{
+    display: grid;
+}
+
+footer{
+    display: grid;
+    text-align: center;
+}
+
+
